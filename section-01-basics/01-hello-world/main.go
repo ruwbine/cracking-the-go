@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main() {
-	fmt.Println("Hello world!\n")
+func swap(x, y string) (string, string){
+	return y, x;
+}
+
+func main(){
+	a, b := swap("Hello", "world")
+	fmt.Println(a,b)
 }
