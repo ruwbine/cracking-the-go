@@ -1,16 +1,8 @@
-package main
+package ZipString
 
 import (
-	"fmt"
 	"strconv"
 )
-
-func main() {
-	fmt.Println(ZipString("Heellooo World!"))
-	fmt.Println(ZipString("aaaaa"))
-	fmt.Println(ZipString("Hellloo FElllllasss"))
-	fmt.Println(ZipString("aaaaa"))
-}
 
 func ZipString(s string) string {
 	if len(s) == 0 {
